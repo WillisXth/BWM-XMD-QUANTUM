@@ -1,6 +1,5 @@
 
 
-
 {
   "name": "BWM-XMD-QUANTUM",
   "description": "Best WhatsApp bot developed by Ibrahim Adams",
@@ -15,14 +14,19 @@
       "value": ".",
       "required": true
     },
-    "AUTO_REJECT_CALL": {
+    "AUTO_REACT": {
       "description": "Enter yes for your bot to auto react",
       "value": "no",
       "required": false
     },
+    "ANTICALL": {
+      "description": "Enter yes for your bot to auto reject calls",
+      "value": "no", 
+      "required": false
+    },
     "AUTO_BIO": {
       "description": "Enter yes for your bot to auto update bio",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_READ_STATUS": {
@@ -56,18 +60,18 @@
       "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Enter your Heroku API key to be able to control your vars",
-      "value": "",
+      "description": "Your Heroku API key (optional)",
+      "value": "HRKU-979e98c1-c38c-4a18-a0d8-92aded0423f4",
       "required": true 
     },
     "HEROKU_APP_NAME": {
-      "description": "Enter your Heroku app name to be able to control vars",
+      "description": "Your Heroku app name (optional)",
       "value": "",
       "required": true 
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "254xxxxxxxxx",
+      "value": "254786273945",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
@@ -75,19 +79,9 @@
       "value": "🚀,🌎",
       "required": false 
     },
-    "AUTO_REACT": {
-      "description": "Enter your auto react messages",
-      "value": "no",
-      "required": false 
-    },
-   "AUTO_REACT_STATUS": {
-      "description": "Enter yes for your bot to auto like status",
-      "value": "yes",
-      "required": false 
-    },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "Willis",
       "required": false
     },
     "SESSION_ID": {
@@ -115,23 +109,18 @@
       "value": "no",
       "required": false
     },	  
-    "GROUPANTILINK": {
+    "GROUPANTILINK_REMOVE": {
       "description": "Enable anti-link in groups (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
+   "GROUPANTILINK_DELETE_ONLY": {
+      "description": "Enable anti-link in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },	  
     "CHATBOT": {
       "description": "Enable text chatbot (yes/no)",
-      "value": "no",
-      "required": false
-    },
-    "WELCOME_MESSAGE": {
-      "description": "Enable welcoming message in groups (yes/no)",
-      "value": "no",
-      "required": false
-    },
-    "GOODBYE_MESSAGE": {
-      "description": "Enable  goodbye in groups (yes/no)",
       "value": "no",
       "required": false
     },
