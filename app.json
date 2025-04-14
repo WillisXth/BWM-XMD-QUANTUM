@@ -20,7 +20,7 @@
     },
     "AUTO_BIO": {
       "description": "Enter yes for your bot to auto update bio",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_READ_STATUS": {
@@ -55,7 +55,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Enter your Heroku API key to be able to control your vars",
-      "value": "",
+      "value": "HRKU-31f3fd97-b9db-44de-ae9c-07c1320332d5",
       "required": true 
     },
     "HEROKU_APP_NAME": {
@@ -65,12 +65,12 @@
     },
     "OWNER_NUMBER": {
       "description": "Enter your number eg, 2547xxxxxxx",
-      "value": "",
+      "value": "254786273945",
       "required": true 
     },
    "STATUS_REACT_EMOJIS": {
       "description": "Enter your auto like status emojis",
-      "value": "💚,🚀,🌎,✅",
+      "value": "💚,❤,👀,🔥",
       "required": false 
     },
     "AUTO_REACT": {
@@ -85,7 +85,7 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "Willis",
       "required": false
     },
     "SESSION_ID": {
@@ -115,7 +115,7 @@
     },	  
     "GROUPANTILINK": {
       "description": "Enable anti-link in groups (yes/no)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "CHATBOT": {
